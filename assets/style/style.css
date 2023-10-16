@@ -115,7 +115,7 @@ header ul {
 
 /* Business Plan */
 #business-plan {
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 #business-plan h2 {
@@ -123,12 +123,42 @@ header ul {
 }
 
 #business-plan .billing-type {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
+}
+
+#business-plan input {
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(214, 214, 216);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+}
+  
+#business-plan input:checked {
+    border: 5px solid rgb(0, 97, 255);
 }
 
 #business-plan .billing-type label[for="monthly"] {
     margin-right: 2rem;
 }
+
+.card {
+    width: calc(100% / 3 - 1rem);
+    margin-left: 1rem;
+}
+.card .business-type {
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: rgb(208, 208, 211);
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+
 
 
 
