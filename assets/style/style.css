@@ -146,22 +146,78 @@ header ul {
     margin-right: 2rem;
 }
 
+.business-wrapper {
+    flex-wrap: wrap;
+    align-items: stretch;
+}
 .card {
     width: calc(100% / 3 - 1rem);
     margin-left: 1rem;
+    border: 1px solid rgb(208, 208, 211);
 }
 .card .business-type {
-    border-width: 1px 1px 0 1px;
-    border-style: solid;
-    border-color: rgb(208, 208, 211);
+    border-bottom: 1px solid rgb(208, 208, 211);
     text-align: center;
     padding: 0.5rem 0;
 }
 
+.card .card-info {
+    padding: 2.3rem 2rem 2.3rem 2rem;
+}
 
+.card .card-info h3 {
+    font-size: 25px;
+    margin-bottom: 0.8rem;
+}
 
+.card .card-info .pay {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
 
+.card .card-info .method-pay {
+    color: rgb(102, 102, 102);
+    margin-bottom: 3rem;
+}
 
+.card .card-info .users,
+.card .card-info .storage {
+    margin-bottom: 1rem;
+}
+
+.card .card-info .shares {
+    margin-bottom: 3rem;
+}
+
+.card .card-info > button {
+    display: inline-block;
+    width: 100%;
+}
+.card .card-info .buy {
+    margin-top: 1.7rem;
+}
+
+.card .card-info .buy > a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.card .card-info .divider {
+    width: 60px;
+    height: 1px;
+    background-color: rgb(208, 208, 211);
+    margin: 2rem 0;
+}
+
+.business-highlights h4 {
+    margin-bottom: 1.5rem;
+}
+
+.business-highlights ul li {
+    list-style: url("../img/check.svg");
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
 
 /* Dropbox Partner */
 .partner-wrapper .content-img {
