@@ -81,6 +81,10 @@ header ul {
     align-items: center;
 }
 
+.user-wrapper ul li a > button {
+    padding: 0.5rem 1rem;
+}
+
 /* Hero */
 #hero {
     background-color: rgb(180, 208, 231);
