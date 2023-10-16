@@ -47,6 +47,11 @@ a {
     color: white;
 }
 
+.button-white {
+    border: 1px solid black;
+    background-color: white;
+}
+
 /* Header */
 header {
     height: 80px;
@@ -148,11 +153,10 @@ header ul {
 
 .business-wrapper {
     flex-wrap: wrap;
-    align-items: stretch;
 }
 .card {
     width: calc(100% / 3 - 1rem);
-    margin-left: 1rem;
+    margin-right: 1rem;
     border: 1px solid rgb(208, 208, 211);
 }
 .card .business-type {
@@ -163,6 +167,7 @@ header ul {
 
 .card .card-info {
     padding: 2.3rem 2rem 2.3rem 2rem;
+    position: relative;
 }
 
 .card .card-info h3 {
@@ -189,7 +194,7 @@ header ul {
     margin-bottom: 3rem;
 }
 
-.card .card-info > button {
+.business-wrapper .card .card-info > button {
     display: inline-block;
     width: 100%;
 }
@@ -219,9 +224,32 @@ header ul {
     padding-bottom: 1rem;
 }
 
+.big-card-wrapper {
+    margin-top: 3rem;
+}
+.big-card-wrapper .card {
+    width: 100%;
+}
+
+.big-card-wrapper .card .card-info > p {
+    margin-top: 2.5rem;
+}
+
+.big-card-wrapper .card  button {
+    position: absolute;
+    top: 2.3rem;
+    right: 2rem;
+}
+
+
 /* Dropbox Partner */
+#dropbox-partner {
+    margin-top: 8rem;
+}
+
 .partner-wrapper .content-img {
-    width: 50%;
+    width: 60%;
+    padding: 1rem;
 }
 
 .partner-wrapper .content-img img {
@@ -229,5 +257,17 @@ header ul {
 }
 
 .partner-wrapper .content {
-    width: 50%;
+    width: 40%;
+    padding: 4rem;
 }
+
+.partner-wrapper .content > h3 {
+    font-size: 21px;
+    margin-bottom: 1rem;
+}
+
+.partner-wrapper .content > p {
+    margin-bottom: 2rem;
+}
+
+
