@@ -241,7 +241,6 @@ header ul {
     right: 2rem;
 }
 
-
 /* Dropbox Partner */
 #dropbox-partner {
     margin-top: 8rem;
@@ -270,4 +269,47 @@ header ul {
     margin-bottom: 2rem;
 }
 
+/* Dropbox Feature */
+#dropbox-feature {
+    margin-top: 8rem;
+}
+
+#dropbox-feature > h2 {
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+.feature-wrapper {
+    flex-wrap: wrap;
+}
+
+.feature-wrapper .feature {
+    width: calc(100% / 3 - 2rem);
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.feature-wrapper .feature > img {
+    width: 100%;
+}
+
+.feature-wrapper .feature > h3 {
+    font-size: 25px;
+    margin-bottom: 1.5rem;
+}
+
+/* Learn more */
+#learn-more {
+    margin-top: 8rem;
+}
+
+#learn-more > h2 {
+    font-size: 40px;
+    margin-bottom: 3rem;
+}
+
+#learn-more > a {
+    color: blue;
+    text-decoration: underline;
+}
 
