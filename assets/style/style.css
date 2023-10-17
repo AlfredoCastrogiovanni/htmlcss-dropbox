@@ -227,6 +227,11 @@ header .user-wrapper > ul > li {
     border: 5px solid rgb(0, 97, 255);
 }
 
+#business-plan input:hover {
+    border-color: rgb(0, 97, 255);
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
 #business-plan .billing-type label[for="monthly"] {
     margin-right: 2rem;
 }
