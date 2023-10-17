@@ -349,16 +349,22 @@ header ul {
     width: 150px;
 }
 
-.brands-left-wrapper,
-.brands-right-wrapper,
 #brands .main-content-wrapper {
-    width: calc(100% / 3);
+    /* width: calc(100% / 3); */
+    width: 40vw;
+    height: 30vw;
+}
+
+#brands .brands-left-wrapper,
+#brands .brands-right-wrapper {
     flex-wrap: wrap;
+    width: 30vw;
+    height: 30vw;
 }
 
 .brand-square {
     width: 50%;
-    aspect-ratio: 1 / 1;
+    height: 50%;
     position: relative;
 }
 
