@@ -45,7 +45,7 @@ a {
 }
 
 .button:hover {
-    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+    transform: scale(1.05);
 }
 
 .button-blue {
@@ -239,11 +239,13 @@ header .user-wrapper > ul > li {
 .business-wrapper {
     flex-wrap: wrap;
 }
+
 .card {
     width: calc(100% / 3 - 1rem);
     margin-right: 1rem;
     border: 1px solid rgb(208, 208, 211);
 }
+
 .card .business-type {
     border-bottom: 1px solid rgb(208, 208, 211);
     text-align: center;
