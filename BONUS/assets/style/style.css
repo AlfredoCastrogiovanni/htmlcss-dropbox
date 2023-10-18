@@ -210,7 +210,7 @@ header .user-wrapper > ul > li {
 
 .hero .hero-wrapper .hero-articles article {
     border: 1px solid rgb(69, 65, 65);
-    padding: 2rem 0;
+    padding: 2.5rem 0 0 2rem;
 }
 
 .hero .hero-wrapper .hero-articles article .description {
@@ -233,6 +233,86 @@ header .user-wrapper > ul > li {
 .hero .hero-wrapper .hero-articles article.secure {
     padding-left: 5rem;
 }
+
+/* Wired */
+.wired {
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.wired .img-column {
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.wired .img-column .img-square {
+    width: 50%;
+    height: 50%;
+}
+
+.wired .img-column .img-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wired .img-column {
+    height: 50vw;
+}
+
+.wired .img-column .collab-with {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wired .img-column .collab-with img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wired .main-column {
+    padding: 5rem 10rem;
+}
+
+.wired .main-column h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.wired .main-column p {
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+.wired .main-column button {
+    margin-bottom: 4rem;
+}
+
+.wired .main-column img {
+    display: block;
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    right: 70px;
+    top: 40px;
+}
+
+.wired .img-column,
+.wired .main-column {
+    width: 50vw;
+}
+
+
+
 
 
 
