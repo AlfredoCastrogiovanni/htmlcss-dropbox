@@ -439,6 +439,7 @@ header .user-wrapper > ul > li {
     height: 50%;
     position: relative;
     transition: border 0.5s linear;
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .brand-square:hover {
