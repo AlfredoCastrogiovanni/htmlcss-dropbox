@@ -146,6 +146,12 @@ header .user-wrapper > ul > li {
 .dropdown-nav .right-list ul li {
     line-height: normal;
     padding-bottom: 1rem;
+    transition: transform 0.2s linear;
+}
+
+.dropdown-nav .left-list ul li:hover,
+.dropdown-nav .right-list ul li:hover {
+    transform: translateY(-0.25em);
 }
 
 .dropdown:hover .dropdown-content {
@@ -432,6 +438,11 @@ header .user-wrapper > ul > li {
     width: 50%;
     height: 50%;
     position: relative;
+    transition: border 0.5s linear;
+}
+
+.brand-square:hover {
+    border: 20px solid rgba(255, 255, 255, 0.2);
 }
 
 .brand-square > img {
@@ -450,7 +461,6 @@ header .user-wrapper > ul > li {
 /* Brands Classes */
 .designit {
     background-color: rgb(162, 211, 155);
-    border: 20px solid rgba(255, 255, 255, 0.3);
 }
 
 .asu {
@@ -558,6 +568,7 @@ header .user-wrapper > ul > li {
     max-width: 80%;
     padding-top: 1rem;
     color: grey;
+    transition: all 0.5s linear;
 }
 
 /* Footer */
