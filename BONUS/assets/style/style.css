@@ -292,17 +292,13 @@ header .user-wrapper > ul > li {
     margin-bottom: 3rem;
 }
 
-#wired .main-column button {
-    margin-bottom: 4rem;
-}
-
 #wired .main-column img {
     display: block;
     height: 20vw;
     width: 20vw;
     position: relative;
-    right: 70px;
-    top: 40px;
+    right: 50px;
+    top: 200px;
 }
 
 #wired .img-column,
@@ -358,7 +354,131 @@ header .user-wrapper > ul > li {
     width: 50%;
 }
 
+/* Tomorrow */
+#tomorrow {
+    background-image: url("../img/tomorrow1.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: 15rem;
+    position: relative;
+}
 
+#tomorrow .video-description {
+    background-color: rgb(154, 0, 50);
+    height: 350px;
+    width: 900px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5rem;
+    color: white;
+}
+
+#tomorrow .video-description h2 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 5rem;
+}
+
+#tomorrow .video-description .icon-player {
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Design */
+#design {
+    margin-top: 10rem;
+}
+
+#design .img-column img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#design .main-column {
+    padding: 5rem 10rem;
+}
+
+#design .main-column h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+#design .main-column p {
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#design .main-column button {
+    margin-bottom: 4rem;
+}
+
+#design .main-column button .fa-circle-play {
+    padding-right: 0.5rem;
+}
+
+#design .main-column img {
+    display: block;
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    right: 50px;
+    top: 200px;
+}
+
+#design .img-column,
+#design .main-column {
+    width: 50%;
+}
+
+/* Free Trial */
+#free-trial {
+    width: 100%;
+    background-color: rgb(250, 208, 74);
+    margin-top: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+#free-trial p {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+#free-trial .title-wrapper {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgb(214, 178, 64);
+}
+
+#free-trial .title-wrapper i {
+    font-size: 30px;
+    align-self: flex-end;
+}
+
+#free-trial h1 {
+    font-size: 70px;
+    padding-right: 2rem;
+    display: inline;
+    font-weight: 500;
+}
+
+#free-trial a {
+    text-decoration: underline;
+    font-size: 20px;
+}
 
 
 
