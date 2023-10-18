@@ -137,131 +137,130 @@ header .user-wrapper > ul > li {
 }
 
 /* Hero */
-.hero {
+#hero {
     background-color: rgb(30, 25, 25);
     color: white;
 }
 
-.hero nav {
+#hero nav {
     padding: 1rem 5rem;
     border-bottom: 1px solid white;
 }
 
-.hero nav ul li {
+#hero nav ul li {
     margin-right: 2rem;
 }
 
-.hero .hero-wrapper .main-content {
+#hero .hero-wrapper .main-content {
     width: 60%;
 }
 
-.hero .hero-wrapper .main-content  .img-content {
+#hero .hero-wrapper .main-content  .img-content {
     height: 70%;
 }
 
-.hero .hero-wrapper .main-content  .img-content img {
+#hero .hero-wrapper .main-content  .img-content img {
     width: 100%;
     height: 100%;
 }
 
-.hero .hero-wrapper .main-content .text-content {
+#hero .hero-wrapper .main-content .text-content {
     padding: 1.5rem 8rem 5rem 4rem;
     height: 30%;
 }
 
-.hero .hero-wrapper .main-content h1 {
+#hero .hero-wrapper .main-content h1 {
     font-size: 60px;
     margin-bottom: 1.5rem;
     font-weight: 500;
 }
 
-.hero .hero-wrapper .main-content p {
+#hero .hero-wrapper .main-content p {
     font-size: 20px;
 }
 
-.hero .hero-wrapper .hero-articles {
+#hero .hero-wrapper .hero-articles {
     width: 40%;
 }
 
-.hero .hero-wrapper .hero-articles .video {
+#hero .hero-wrapper .hero-articles .video {
     height: 50%;
 }
 
-.hero .hero-wrapper .hero-articles .video img {
+#hero .hero-wrapper .hero-articles .video img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.hero .hero-wrapper .hero-articles .video-text {
+#hero .hero-wrapper .hero-articles .video-text {
     height: 20%;
     padding-top: 3rem;
 }
 
-.hero .hero-wrapper .hero-articles .video-text p {
+#hero .hero-wrapper .hero-articles .video-text p {
     font-size: 17px;
     margin-bottom: 1rem;
 }
 
-.hero .hero-wrapper .hero-articles .video-text h2 {
+#hero .hero-wrapper .hero-articles .video-text h2 {
     font-size: 35px;
     font-weight: 500;
 }
 
-.hero .hero-wrapper .hero-articles article {
+#hero .hero-wrapper .hero-articles article {
     border: 1px solid rgb(69, 65, 65);
     padding: 2.5rem 0 0 2rem;
 }
 
-.hero .hero-wrapper .hero-articles article .description {
+#hero .hero-wrapper .hero-articles article .description {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 1rem;
 }
 
-.hero .hero-wrapper .hero-articles article .title {
+#hero .hero-wrapper .hero-articles article .title {
     font-size: 25px;
 }
 
-.hero .hero-wrapper .hero-articles article.grow,
-.hero .hero-wrapper .hero-articles article.secure {
+#hero .hero-wrapper .hero-articles article.grow,
+#hero .hero-wrapper .hero-articles article.secure {
     height: 15%;
 }
 
-.hero .hero-wrapper .hero-articles .video-text,
-.hero .hero-wrapper .hero-articles article.grow,
-.hero .hero-wrapper .hero-articles article.secure {
+#hero .hero-wrapper .hero-articles .video-text,
+#hero .hero-wrapper .hero-articles article.grow,
+#hero .hero-wrapper .hero-articles article.secure {
     padding-left: 5rem;
 }
 
 /* Wired */
-.wired {
+#wired {
     margin-top: 10rem;
-    padding-bottom: 10rem;
 }
 
-.wired .img-column {
+#wired .img-column {
     flex-wrap: wrap;
     position: relative;
 }
 
-.wired .img-column .img-square {
+#wired .img-column .img-square {
     width: 50%;
     height: 50%;
 }
 
-.wired .img-column .img-square img {
+#wired .img-column .img-square img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.wired .img-column {
+#wired .img-column {
     height: 50vw;
 }
 
-.wired .img-column .collab-with {
+#wired .img-column .collab-with {
     width: 250px;
     height: 250px;
     position: absolute;
@@ -271,33 +270,33 @@ header .user-wrapper > ul > li {
     transform: translate(-50%, -50%);
 }
 
-.wired .img-column .collab-with img {
+#wired .img-column .collab-with img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.wired .main-column {
+#wired .main-column {
     padding: 5rem 10rem;
 }
 
-.wired .main-column h1 {
+#wired .main-column h1 {
     font-size: 60px;
     font-weight: 500;
     margin-bottom: 3rem;
 }
 
-.wired .main-column p {
+#wired .main-column p {
     font-size: 20px;
     margin-bottom: 3rem;
 }
 
-.wired .main-column button {
+#wired .main-column button {
     margin-bottom: 4rem;
 }
 
-.wired .main-column img {
+#wired .main-column img {
     display: block;
     height: 20vw;
     width: 20vw;
@@ -306,10 +305,61 @@ header .user-wrapper > ul > li {
     top: 40px;
 }
 
-.wired .img-column,
-.wired .main-column {
+#wired .img-column,
+#wired .main-column {
     width: 50vw;
 }
+
+/* Pandemic */
+#pandemic {
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+
+#pandemic .main-column {
+    padding: 5rem 10rem;
+}
+
+#pandemic .main-column h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+#pandemic .main-column p {
+    font-size: 20px;
+    margin-bottom: 3rem;
+}
+
+#pandemic .main-column button {
+    margin-bottom: 10rem;
+}
+
+#pandemic .main-column .img-wrapper {
+    text-align: end;
+}
+#pandemic .main-column .img-wrapper img {
+    height: 20vw;
+    width: 20vw;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+
+#pandemic .img-column img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#pandemic .main-column,
+#pademic .img-column {
+    width: 50%;
+}
+
+
+
 
 
 
