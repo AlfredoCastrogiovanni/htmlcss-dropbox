@@ -42,6 +42,13 @@ a {
     color: white;
 }
 
+.divider {
+    width: 60px;
+    height: 1px;
+    background-color: rgb(208, 208, 211);
+    margin: 2rem 0;
+}
+
 /* Header */
 header {
     height: 80px;
@@ -528,6 +535,125 @@ header .user-wrapper > ul > li {
     width: 50%;
 }
 
+/* Studied Cases */
+#studied-cases {
+    margin: 10rem 0;
+}
+
+#studied-cases > p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#studied-cases > h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#studied-cases > p,
+#studied-cases > h1 {
+    text-align: center;
+}
+
+#studied-cases .navigation-buttons {
+    text-align: end;
+    padding: 1rem 5rem;
+    font-size: 25px;
+}
+
+#studied-cases .navigation-buttons i {
+    margin-left: 1rem;
+}
+
+#studied-cases .wrapper {
+    padding-left: 7rem;
+}
+
+#studied-cases .wrapper article {
+    background-color: rgb(247, 245, 242);
+    width: 50%;
+}
+
+#studied-cases .wrapper article .img-column img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#studied-cases .wrapper article .main-column {
+    padding: 3rem;
+    position: relative;
+}
+
+#studied-cases .wrapper article .main-column p:first-of-type {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+#studied-cases .wrapper article .main-column p:last-of-type {
+    font-size: 23px;
+}
+
+#studied-cases .wrapper article .main-column button {
+    position: absolute;
+    left: 3rem;
+    bottom: 3rem;
+}
+
+#studied-cases .wrapper article .img-column,
+#studied-cases .wrapper article .main-column {
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(30, 25, 25);
+    color: white;
+}
+
+.footer-wrapper {
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+
+.upper-footer {
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.upper-footer .footer-column {
+    margin-right: 5rem;
+    width: calc(100% / 6 - 5rem);
+}
+
+.upper-footer .footer-column > h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.upper-footer .footer-column ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-wrapper .divider {
+    width: 120px;
+    color: white;
+}
+
+.bottom-footer {
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    color: rgb(189, 187, 187);
+    font-size: 17px;
+}
+
+.bottom-footer .fa-caret-up {
+    position: relative;
+    top: 2px;
+}
 
 
 
