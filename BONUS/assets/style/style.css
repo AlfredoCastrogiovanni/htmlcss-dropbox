@@ -1,0 +1,137 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;0,800;1,300;1,400;1,800&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* General Classes */
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.button {
+    border: none;
+    padding: 0.8rem 1rem;
+    font-size: 18px;
+    background-color: white;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.button-blue {
+    background-color: rgb(0, 97, 255);
+    color: white;
+}
+
+/* Header */
+header {
+    height: 80px;
+}
+
+header ul {
+    align-items: center;
+    height: 100%;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+header .wrapper > nav {
+    height: 100%;
+}
+
+header .wrapper .logo {
+    vertical-align: middle;
+}
+
+header .wrapper > .main-nav > ul > li,
+header .user-wrapper > ul > li {
+    margin-left: 1.5rem;
+    height: 100%;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.user-wrapper {
+    height: 100%;
+}
+
+.user-wrapper ul li a > button {
+    padding: 0.5rem 1rem;
+}
+
+.list-hover:hover {
+    border-bottom: 3px solid black;
+}
+
+/* DropDown Menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1.5rem 1rem;
+}
+
+.dropdown-left {
+    right: 0;
+}
+
+.dropdown-right {
+    left: 0;
+}
+
+.dropdown-nav {
+    flex-wrap: wrap;
+}
+
+.dropdown-nav .left-list,
+.dropdown-nav .right-list {
+   width: 50%;
+}
+
+.dropdown-nav .left-list ul li,
+.dropdown-nav .right-list ul li {
+    line-height: normal;
+    padding-bottom: 1rem;
+    transition: transform 0.2s linear;
+}
+
+.dropdown-nav .left-list ul li:hover,
+.dropdown-nav .right-list ul li:hover {
+    transform: translateY(-0.25em);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
